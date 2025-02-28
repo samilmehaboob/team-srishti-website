@@ -1707,3 +1707,16 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+/* Override hero section styles */
+#hero {
+    background-color: transparent !important;
+}
+
+#hero:before {
+    content: none !important;
+}
+
+#hero .container-fluid {
+    background: transparent !important;
+}
